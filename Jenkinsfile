@@ -1,7 +1,7 @@
 pipeline {
     agent {
          docker { 
-              image 'debian:latest'
+              image 'masahir0y/debian:latest'
          }
     }
     stages {
